@@ -47,13 +47,48 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hammerrecipe"
+    },
+    {
+      "name": "Palaingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaingot"
+    },
+    {
+      "name": "Palablock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palablock"
+    },
+    {
+      "name": "Paladium",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium"
+    },
+    {
+      "name": "Test",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pala_mod.hammer": "Hammer"
+      "item.pala_mod.palaingot": "Paladium ingot",
+      "item.pala_mod.hammer": "Hammer",
+      "itemGroup.tabpaladium": "Paladium",
+      "block.pala_mod.palablock": "Palablock"
     }
   },
   "foldersRoot": {
