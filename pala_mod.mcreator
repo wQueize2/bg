@@ -1,54 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "HammerQuandLeBlocEstDetruitAvecLoutil",
-      "type": "procedure",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammer_quand_le_bloc_est_detruit_avec_loutil",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Hammer",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammer"
-    },
-    {
-      "name": "Hammerrecipe",
-      "type": "recipe",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hammerrecipe"
-    },
-    {
       "name": "Palaingot",
       "type": "item",
       "sortid": 3,
@@ -86,7 +38,6 @@
   "language_map": {
     "en_us": {
       "item.pala_mod.palaingot": "Paladium ingot",
-      "item.pala_mod.hammer": "Hammer",
       "itemGroup.tabpaladium": "Paladium",
       "block.pala_mod.palablock": "Palablock"
     }
