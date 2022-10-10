@@ -1,5 +1,7 @@
 {
   "item.pala_mod.palaingot": "Paladium ingot",
+  "item.pala_mod.palasoldier_spawn_egg": "Palasoldier Spawn Egg",
+  "entity.pala_mod.palasoldier": "Palasoldier",
   "itemGroup.tabpaladium": "Paladium",
   "block.pala_mod.palablock": "Palablock"
 }
