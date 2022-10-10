@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
@@ -13,7 +13,7 @@ authors="piwiq, MCreator"
 [[dependencies.pala_mod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
 
