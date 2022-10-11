@@ -160,7 +160,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pala_mod.hammer": "Hammer"
+      "item.pala_mod.palatools_pickaxe": "Palatools Pickaxe",
+      "item.pala_mod.hammer": "Hammer",
+      "item.pala_mod.palatools_sword": "Palatools Sword",
+      "item.pala_mod.pala_dimension": "Pala Dimension Portal Igniter",
+      "block.pala_mod.c": "C"
     }
   },
   "foldersRoot": {
