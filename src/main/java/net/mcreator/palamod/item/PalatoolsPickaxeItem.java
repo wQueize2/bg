@@ -1,39 +1,53 @@
 
 package net.mcreator.palamod.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraftforge.registries.ObjectHolder;
 
-public class PalatoolsPickaxeItem extends PickaxeItem {
-	public PalatoolsPickaxeItem() {
-		super(new Tier() {
-			public int getUses() {
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.palamod.itemgroup.PaladiumItemGroup;
+import net.mcreator.palamod.PalaModModElements;
+
+@PalaModModElements.ModElement.Tag
+public class PalatoolsPickaxeItem extends PalaModModElements.ModElement {
+	@ObjectHolder("pala_mod:palatools_pickaxe")
+	public static final Item block = null;
+
+	public PalatoolsPickaxeItem(PalaModModElements instance) {
+		super(instance, 7);
+	}
+
+	@Override
+	public void initElements() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+			public int getMaxUses() {
 				return 3811;
 			}
 
-			public float getSpeed() {
+			public float getEfficiency() {
 				return 19f;
 			}
 
-			public float getAttackDamageBonus() {
+			public float getAttackDamage() {
 				return 12f;
 			}
 
-			public int getLevel() {
+			public int getHarvestLevel() {
 				return 14;
 			}
 
-			public int getEnchantmentValue() {
+			public int getEnchantability() {
 				return 98;
 			}
 
-			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PalaModModItems.DELETED_MOD_ELEMENT.get()));
+			public Ingredient getRepairMaterial() {
+				return Ingredient.fromStacks(new ItemStack(PalaingotItem.block));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(PaladiumItemGroup.tab));
+		}, 1, -3f, new Item.Properties().group(PaladiumItemGroup.tab)) {
+		}.setRegistryName("palatools_pickaxe"));
 	}
-
 }

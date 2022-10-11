@@ -1,27 +1,15 @@
 
 package net.mcreator.palamod.gui;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.Minecraft;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.matrix.MatrixStack;
+import net.mcreator.palamod.PalaModMod;
 
 @OnlyIn(Dist.CLIENT)
 public class CreditsGuiWindow extends ContainerScreen<CreditsGui.GuiContainerMod> {
+
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
+
 	private final static HashMap guistate = CreditsGui.guistate;
 
 	public CreditsGuiWindow(CreditsGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
@@ -42,6 +30,7 @@ public class CreditsGuiWindow extends ContainerScreen<CreditsGui.GuiContainerMod
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -49,10 +38,12 @@ public class CreditsGuiWindow extends ContainerScreen<CreditsGui.GuiContainerMod
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		Minecraft.getInstance().getTextureManager().bindTexture(texture);
 		int k = (this.width - this.xSize) / 2;
 		int l = (this.height - this.ySize) / 2;
 		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -62,6 +53,7 @@ public class CreditsGuiWindow extends ContainerScreen<CreditsGui.GuiContainerMod
 			this.minecraft.player.closeScreen();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -90,5 +82,7 @@ public class CreditsGuiWindow extends ContainerScreen<CreditsGui.GuiContainerMod
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+
 	}
+
 }

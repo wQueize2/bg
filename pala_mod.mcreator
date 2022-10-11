@@ -156,22 +156,6 @@
       "registry_name": "c"
     },
     {
-      "name": "Credits",
-      "type": "gui",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "credits"
-    },
-    {
-      "name": "CreditsKeybinding",
-      "type": "keybind",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "credits_keybinding"
-    },
-    {
       "name": "CreditsKeybindingOnKeyPressed",
       "type": "procedure",
       "sortid": 22,
@@ -202,6 +186,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Credits",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits"
+    },
+    {
+      "name": "CreditsKeybinding",
+      "type": "keybind",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_keybinding"
     }
   ],
   "variable_elements": [],
