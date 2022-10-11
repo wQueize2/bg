@@ -154,13 +154,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "c"
+    },
+    {
+      "name": "Credits",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits"
+    },
+    {
+      "name": "CreditsKeybinding",
+      "type": "keybind",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_keybinding"
+    },
+    {
+      "name": "CreditsKeybindingOnKeyPressed",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_keybinding_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pala_mod.hammer": "Hammer"
+      "item.pala_mod.hammer": "Hammer",
+      "key.pala_mod.credits_keybinding": "Credits Keybinding"
     }
   },
   "foldersRoot": {

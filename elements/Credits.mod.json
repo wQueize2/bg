@@ -1,0 +1,100 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Credits :",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "Credits :",
+          "x": 190,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Coowner : Tenoste",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "Coowner : Tenoste",
+          "x": 145,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Designer : Tenoste",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "Designer : Tenoste",
+          "x": 145,
+          "y": 77
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Owner : Queize",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "name": "Owner : Queize",
+          "x": 145,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Programmer : Tenoste and wQueize",
+          "color": {
+            "value": -3342592,
+            "falpha": 0.0
+          },
+          "name": "Programmer : Tenoste and wQueize",
+          "x": 128,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Minecraft : Mojang @a",
+          "color": {
+            "value": -10066330,
+            "falpha": 0.0
+          },
+          "name": "Minecraft : Mojang @a",
+          "x": 188,
+          "y": 182
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Credits Keybinding",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "CreditsKeybindingOnKeyPressed"
+    }
+  }
+}
