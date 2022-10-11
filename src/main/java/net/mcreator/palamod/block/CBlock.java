@@ -5,18 +5,11 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class PalablockBlock extends Block {
+public class CBlock extends Block {
 
-	public PalablockBlock() {
+	public CBlock() {
 		super(BlockBehaviour.Properties.of(Material.ROCK).sound(SoundType.GROUND).strength(1f, 10f));
 
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Paladium-Block"));
-		list.add(new TextComponent("By Tenoste"));
 	}
 
 	@Override

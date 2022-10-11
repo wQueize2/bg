@@ -1,13 +1,3 @@
 {
-  "item.pala_mod.palaingot": "Paladium ingot",
-  "item.pala_mod.palatools_pickaxe": "Palatools Pickaxe",
-  "item.pala_mod.palasoldier_spawn_egg": "Palasoldier Spawn Egg",
-  "entity.pala_mod.palasoldier": "Palasoldier",
-  "item.pala_mod.palatools_sword": "Palatools Sword",
-  "itemGroup.tabpaladium": "Paladium",
-  "item.pala_mod.pala_dimension": "Pala Dimension Portal Igniter",
-  "item.pala_mod.palatools_axe": "Palatools Axe",
-  "item.pala_mod.palatools_hoe": "Palatools Hoe",
-  "block.pala_mod.palablock": "Palablock",
-  "item.pala_mod.palatools_shovel": "Palatools Shovel"
+  "item.pala_mod.hammer": "Hammer"
 }

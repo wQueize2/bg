@@ -1,60 +1,12 @@
 {
   "mod_elements": [
     {
-      "name": "Palaingot",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palaingot"
-    },
-    {
-      "name": "Palablock",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palablock"
-    },
-    {
-      "name": "Paladium",
-      "type": "tab",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "paladium"
-    },
-    {
-      "name": "Test",
-      "type": "structure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test"
-    },
-    {
-      "name": "Palasoldier",
-      "type": "livingentity",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palasoldier"
-    },
-    {
       "name": "PalatoolsPickaxe",
       "type": "tool",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palatools_pickaxe"
-    },
-    {
-      "name": "PalatoolsAxe",
-      "type": "tool",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palatools_axe"
     },
     {
       "name": "PalatoolsSword",
@@ -65,12 +17,44 @@
       "registry_name": "palatools_sword"
     },
     {
+      "name": "PalatoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_hoe_recipe"
+    },
+    {
+      "name": "Paladium",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium"
+    },
+    {
+      "name": "Palasoldier",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palasoldier"
+    },
+    {
       "name": "PalatoolsShovel",
       "type": "tool",
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palatools_shovel"
+    },
+    {
+      "name": "PalaPainting",
+      "type": "painting",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pala_painting"
     },
     {
       "name": "PalatoolsHoe",
@@ -81,28 +65,20 @@
       "registry_name": "palatools_hoe"
     },
     {
-      "name": "PalatoolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palatools_pickaxe_recipe"
-    },
-    {
-      "name": "PalatoolsAxeRecipe",
-      "type": "recipe",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "palatools_axe_recipe"
-    },
-    {
       "name": "PalatoolsSwordRecipe",
       "type": "recipe",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palatools_sword_recipe"
+    },
+    {
+      "name": "PalatoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_pickaxe_recipe"
     },
     {
       "name": "PalatoolsShovelRecipe",
@@ -113,20 +89,52 @@
       "registry_name": "palatools_shovel_recipe"
     },
     {
-      "name": "PalatoolsHoeRecipe",
-      "type": "recipe",
-      "sortid": 16,
+      "name": "Money",
+      "type": "particle",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "palatools_hoe_recipe"
+      "registry_name": "money"
     },
     {
-      "name": "PalaPainting",
-      "type": "painting",
-      "sortid": 17,
+      "name": "Palablock",
+      "type": "block",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pala_painting"
+      "registry_name": "palablock"
+    },
+    {
+      "name": "Test",
+      "type": "structure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
+    },
+    {
+      "name": "Palaingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palaingot"
+    },
+    {
+      "name": "PalatoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_axe_recipe"
+    },
+    {
+      "name": "PalatoolsAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_axe"
     },
     {
       "name": "PalaDimension",
@@ -140,29 +148,19 @@
       }
     },
     {
-      "name": "Money",
-      "type": "particle",
-      "sortid": 19,
+      "name": "C",
+      "type": "block",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "money"
+      "registry_name": "c"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.pala_mod.palaingot": "Paladium ingot",
-      "item.pala_mod.palatools_pickaxe": "Palatools Pickaxe",
-      "item.pala_mod.palasoldier_spawn_egg": "Palasoldier Spawn Egg",
-      "entity.pala_mod.palasoldier": "Palasoldier",
-      "item.pala_mod.palatools_sword": "Palatools Sword",
-      "itemGroup.tabpaladium": "Paladium",
-      "item.pala_mod.pala_dimension": "Pala Dimension Portal Igniter",
-      "item.pala_mod.palatools_axe": "Palatools Axe",
-      "item.pala_mod.palatools_hoe": "Palatools Hoe",
-      "block.pala_mod.palablock": "Palablock",
-      "item.pala_mod.palatools_shovel": "Palatools Shovel"
+      "item.pala_mod.hammer": "Hammer"
     }
   },
   "foldersRoot": {
@@ -173,15 +171,15 @@
         "children": []
       },
       {
+        "name": "Strucutre",
+        "children": []
+      },
+      {
         "name": "Entity",
         "children": []
       },
       {
         "name": "Item",
-        "children": []
-      },
-      {
-        "name": "Strucutre",
         "children": []
       }
     ]
