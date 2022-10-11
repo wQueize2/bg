@@ -8,11 +8,11 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.palamod.itemgroup.PaladiumItemGroup;
 import net.mcreator.palamod.PalaModModElements;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public class PalaingotItem extends PalaModModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(PaladiumItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON));
 			setRegistryName("palaingot");
 		}
 

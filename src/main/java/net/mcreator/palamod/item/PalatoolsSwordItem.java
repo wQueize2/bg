@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.palamod.itemgroup.PaladiumItemGroup;
 import net.mcreator.palamod.PalaModModElements;
 
 @PalaModModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class PalatoolsSwordItem extends PalaModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PalaingotItem.block));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(PaladiumItemGroup.tab)) {
 		}.setRegistryName("palatools_sword"));
 	}
 }

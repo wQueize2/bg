@@ -8,7 +8,7 @@
     "name": "Palatools Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Paladium"
     },
     "toolType": "Spade",
     "harvestLevel": 14,

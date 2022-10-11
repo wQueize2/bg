@@ -8,7 +8,7 @@
     "name": "Paladium ingot",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Paladium"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -5,11 +5,11 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.HoeItem;
 
+import net.mcreator.palamod.itemgroup.PaladiumItemGroup;
 import net.mcreator.palamod.PalaModModElements;
 
 @PalaModModElements.ModElement.Tag
@@ -47,7 +47,7 @@ public class PalatoolsHoeItem extends PalaModModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PalaingotItem.block));
 			}
-		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(PaladiumItemGroup.tab)) {
 		}.setRegistryName("palatools_hoe"));
 	}
 }
