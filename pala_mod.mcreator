@@ -137,17 +137,6 @@
       "registry_name": "palatools_axe"
     },
     {
-      "name": "PalaDimension",
-      "type": "dimension",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pala_dimension",
-      "metadata": {
-        "ep": true
-      }
-    },
-    {
       "name": "C",
       "type": "block",
       "sortid": 3,
