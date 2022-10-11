@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "pala_mod:palaingot"
+    },
+    "1": {
+      "item": "pala_mod:palaingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pala_mod:palatools_sword",
+    "count": 1
+  }
+}

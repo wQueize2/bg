@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pala_mod:items/palatools_axe"
+  }
+}

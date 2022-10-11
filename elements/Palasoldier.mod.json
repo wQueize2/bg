@@ -6,7 +6,7 @@
     "mobLabel": "CustomPaladium",
     "mobModelName": "Biped",
     "mobModelTexture": "pala-texture.png",
-    "mobModelGlowTexture": "pala-texture.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

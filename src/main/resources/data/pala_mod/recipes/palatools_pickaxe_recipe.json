@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "pala_mod:palaingot"
+    },
+    "1": {
+      "item": "pala_mod:palaingot"
+    },
+    "2": {
+      "item": "pala_mod:palaingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pala_mod:palatools_pickaxe",
+    "count": 1
+  }
+}

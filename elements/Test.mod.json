@@ -5,7 +5,7 @@
     "structure": "pala_structure",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 200,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 4,
     "spawnLocation": "Ground",

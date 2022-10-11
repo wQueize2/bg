@@ -39,6 +39,105 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "palasoldier"
+    },
+    {
+      "name": "PalatoolsPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_pickaxe"
+    },
+    {
+      "name": "PalatoolsAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_axe"
+    },
+    {
+      "name": "PalatoolsSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_sword"
+    },
+    {
+      "name": "PalatoolsShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_shovel"
+    },
+    {
+      "name": "PalatoolsHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_hoe"
+    },
+    {
+      "name": "PalatoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_pickaxe_recipe"
+    },
+    {
+      "name": "PalatoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_axe_recipe"
+    },
+    {
+      "name": "PalatoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_sword_recipe"
+    },
+    {
+      "name": "PalatoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_shovel_recipe"
+    },
+    {
+      "name": "PalatoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palatools_hoe_recipe"
+    },
+    {
+      "name": "PalaPainting",
+      "type": "painting",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pala_painting"
+    },
+    {
+      "name": "PalaDimension",
+      "type": "dimension",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pala_dimension",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -46,15 +145,38 @@
   "language_map": {
     "en_us": {
       "item.pala_mod.palaingot": "Paladium ingot",
+      "item.pala_mod.palatools_pickaxe": "Palatools Pickaxe",
       "item.pala_mod.palasoldier_spawn_egg": "Palasoldier Spawn Egg",
       "entity.pala_mod.palasoldier": "Palasoldier",
+      "item.pala_mod.palatools_sword": "Palatools Sword",
       "itemGroup.tabpaladium": "Paladium",
-      "block.pala_mod.palablock": "Palablock"
+      "item.pala_mod.pala_dimension": "Pala Dimension Portal Igniter",
+      "item.pala_mod.palatools_axe": "Palatools Axe",
+      "item.pala_mod.palatools_hoe": "Palatools Hoe",
+      "block.pala_mod.palablock": "Palablock",
+      "item.pala_mod.palatools_shovel": "Palatools Shovel"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Entity",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Strucutre",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "pala_mod",
