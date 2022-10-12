@@ -20,7 +20,7 @@ import net.minecraft.client.Minecraft;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoneyParticle {
-	public static final BasicParticleType particle = new BasicParticleType(false);
+	public static final BasicParticleType particle = new BasicParticleType(true);
 
 	@SubscribeEvent
 	public static void registerParticleType(RegistryEvent.Register<ParticleType<?>> event) {
@@ -48,17 +48,20 @@ public class MoneyParticle {
 			this.motionX = vx * 1;
 			this.motionY = vy * 1;
 			this.motionZ = vz * 1;
-			this.selectSpriteRandomly(spriteSet);
+			this.selectSpriteWithAge(spriteSet);
 		}
 
 		@Override
 		public IParticleRenderType getRenderType() {
-			return IParticleRenderType.PARTICLE_SHEET_TRANSLUCENT;
+			return IParticleRenderType.PARTICLE_SHEET_OPAQUE;
 		}
 
 		@Override
 		public void tick() {
 			super.tick();
+			if (!this.isExpired) {
+				this.setSprite(this.spriteSet.get((this.age / 3) % 1 + 1, 1));
+			}
 		}
 	}
 

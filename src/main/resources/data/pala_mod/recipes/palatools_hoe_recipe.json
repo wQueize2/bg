@@ -7,10 +7,10 @@
   ],
   "key": {
     "0": {
-      "item": "pala_mod:deleted_mod_element"
+      "item": "pala_mod:palaingot"
     },
     "1": {
-      "item": "pala_mod:deleted_mod_element"
+      "item": "pala_mod:palaingot"
     },
     "3": {
       "item": "minecraft:stick"
@@ -20,7 +20,7 @@
     }
   },
   "result": {
-    "item": "pala_mod:deleted_mod_element",
+    "item": "pala_mod:palatools_hoe",
     "count": 1
   }
 }

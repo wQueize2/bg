@@ -137,14 +137,6 @@
       "registry_name": "palatools_axe"
     },
     {
-      "name": "C",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c"
-    },
-    {
       "name": "CreditsKeybindingOnKeyPressed",
       "type": "procedure",
       "sortid": 22,
@@ -191,14 +183,85 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "credits_keybinding"
+    },
+    {
+      "name": "Paladium_armorArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Paladium_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "Paladium_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_armor_body_recipe"
+    },
+    {
+      "name": "Paladium_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "Paladium_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_armor_boots_recipe"
+    },
+    {
+      "name": "TeleportusProcedure",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teleportus_procedure",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.pala_mod.palaingot": "Paladium ingot",
       "item.pala_mod.hammer": "Hammer",
-      "key.pala_mod.credits_keybinding": "Credits Keybinding"
+      "item.pala_mod.palatools_sword": "Palatools Sword",
+      "item.pala_mod.paladium_armor_armor_boots": "Paladium_armor Boots",
+      "key.pala_mod.credits_keybinding": "Credits Keybinding",
+      "itemGroup.tabpaladium": "Paladium Mod",
+      "item.pala_mod.palatools_hoe": "Palatools Hoe",
+      "block.pala_mod.palablock": "Palablock",
+      "item.pala_mod.palatools_shovel": "Palatools Shovel",
+      "item.pala_mod.paladium_armor_armor_helmet": "Paladium_armor Helmet",
+      "item.pala_mod.paladium_armor_armor_chestplate": "Paladium_armor Chestplate",
+      "item.pala_mod.palatools_pickaxe": "Palatools Pickaxe",
+      "item.pala_mod.palasoldier_spawn_egg": "FuzeIII Spawn Egg",
+      "entity.pala_mod.palasoldier": "FuzeIII",
+      "item.pala_mod.palatools_axe": "Palatools Axe",
+      "item.pala_mod.paladium_armor_armor_leggings": "Paladium_armor Leggings"
     }
   },
   "foldersRoot": {

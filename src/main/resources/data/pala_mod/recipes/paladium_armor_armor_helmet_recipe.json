@@ -1,9 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23",
-    " 5"
+    "012",
+    "3 5"
   ],
   "key": {
     "0": {
@@ -16,14 +15,14 @@
       "item": "pala_mod:palaingot"
     },
     "3": {
-      "item": "minecraft:stick"
+      "item": "pala_mod:palaingot"
     },
     "5": {
-      "item": "minecraft:stick"
+      "item": "pala_mod:palaingot"
     }
   },
   "result": {
-    "item": "pala_mod:palatools_axe",
+    "item": "pala_mod:paladium_armor_armor_helmet",
     "count": 1
   }
 }

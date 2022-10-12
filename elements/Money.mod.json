@@ -3,7 +3,7 @@
   "_type": "particle",
   "definition": {
     "texture": "discord.png",
-    "animate": false,
+    "animate": true,
     "frameDuration": 3,
     "width": 0.2,
     "height": 0.2,
@@ -15,7 +15,7 @@
     "angularVelocity": 0.0,
     "angularAcceleration": 0.0,
     "canCollide": true,
-    "alwaysShow": false,
-    "renderType": "TRANSLUCENT"
+    "alwaysShow": true,
+    "renderType": "OPAQUE"
   }
 }

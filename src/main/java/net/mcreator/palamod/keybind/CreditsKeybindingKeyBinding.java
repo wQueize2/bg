@@ -1,17 +1,40 @@
 
 package net.mcreator.palamod.keybind;
 
+import org.lwjgl.glfw.GLFW;
+
+import net.minecraftforge.fml.network.NetworkEvent;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.client.event.InputEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.network.PacketBuffer;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.palamod.procedures.CreditsKeybindingOnKeyPressedProcedure;
+import net.mcreator.palamod.PalaModModElements;
 import net.mcreator.palamod.PalaModMod;
+
+import java.util.stream.Stream;
+import java.util.function.Supplier;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 @PalaModModElements.ModElement.Tag
 public class CreditsKeybindingKeyBinding extends PalaModModElements.ModElement {
-
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
 
 	public CreditsKeybindingKeyBinding(PalaModModElements instance) {
 		super(instance, 21);
-
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}
@@ -32,14 +55,12 @@ public class CreditsKeybindingKeyBinding extends PalaModModElements.ModElement {
 				if (event.getAction() == GLFW.GLFW_PRESS) {
 					PalaModMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(0, 0));
 					pressAction(Minecraft.getInstance().player, 0, 0);
-
 				}
 			}
 		}
 	}
 
 	public static class KeyBindingPressedMessage {
-
 		int type, pressedms;
 
 		public KeyBindingPressedMessage(int type, int pressedms) {
@@ -64,7 +85,6 @@ public class CreditsKeybindingKeyBinding extends PalaModModElements.ModElement {
 			});
 			context.setPacketHandled(true);
 		}
-
 	}
 
 	private static void pressAction(PlayerEntity entity, int type, int pressedms) {
@@ -72,11 +92,9 @@ public class CreditsKeybindingKeyBinding extends PalaModModElements.ModElement {
 		double x = entity.getPosX();
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-
 		if (type == 0) {
 
 			CreditsKeybindingOnKeyPressedProcedure.executeProcedure(Stream
@@ -84,7 +102,5 @@ public class CreditsKeybindingKeyBinding extends PalaModModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
-
 	}
-
 }

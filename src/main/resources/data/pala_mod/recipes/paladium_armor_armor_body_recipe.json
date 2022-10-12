@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pala_mod:palaingot"
+    },
+    "2": {
+      "item": "pala_mod:palaingot"
+    },
+    "3": {
+      "item": "pala_mod:palaingot"
+    },
+    "4": {
+      "item": "pala_mod:palaingot"
+    },
+    "5": {
+      "item": "pala_mod:palaingot"
+    },
+    "6": {
+      "item": "pala_mod:palaingot"
+    },
+    "7": {
+      "item": "pala_mod:palaingot"
+    },
+    "8": {
+      "item": "pala_mod:palaingot"
+    }
+  },
+  "result": {
+    "item": "pala_mod:paladium_armor_armor_chestplate",
+    "count": 1
+  }
+}
